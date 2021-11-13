@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+body, html {
+    position: relative;
+    height: 100%; 
+    width : 100%;  
+    margin: 0;
+    background-color: #2f2f2f;
+}
+
+.circle {
+    position: absolute;
+    border: solid 2px #fff;
+    background-color: #fff;
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left: 45%;
+    top: 45%;
+    transform: rotate(0deg)
+}
